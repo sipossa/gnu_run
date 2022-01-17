@@ -12,6 +12,7 @@ if(G5_COMMUNITY_USE === false) {
 }
 ?>
 
+나는 테일이.
 
     <button type="button" id="top_btn">
     	<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
