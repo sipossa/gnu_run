@@ -25,4 +25,33 @@ if(defined('_INDEX_')) { // index에서만 실행
 }
 ?>
 
-나는 헤드.
+<div class="wrap">
+        <header class="header">
+            <div class="hd_top">
+                <div class="container">
+                    <div class="left">(주)동산텍스 : 에어 샌드위치메쉬 및 면직물(canvas) 전문 생산업체 신발원단, 가방지, 스크린골프장 스크린메쉬원단, 산업용 원단 주문생산
+                    </div>
+                    <div class="right">
+                        <a href="/bbs/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hd">
+                <div class="container">
+                    <h1>
+                        <a href="/">
+                            <img src="<?php echo G5_THEME_URL ?>/img/logo.png" alt="">
+                        </a>
+                    </h1>
+                    <nav class="gnb">
+                        <ul>
+                            <li><a href="#">에어 샌드위치메쉬</a></li>
+                            <li><a href="#">면직물(CANVAS)</a></li>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">보유장비</a></li>
+                            <li><a href="/bbs/board.php?bo_table=qa">고객문의</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>

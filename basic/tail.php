@@ -12,7 +12,19 @@ if(G5_COMMUNITY_USE === false) {
 }
 ?>
 
-나는 테일이.
+<footer class="footer">
+            <ul>
+                <li>대표 : 이두열</li>
+                <li>사업자등록번호 : 615-81-18295 </li>
+                <li>경상남도 김해시 생림면 나전리 301-3</li>
+                <li>Tel : 055-329-3684</li>
+                <li>Fax : 055-329-3890</li>
+                <li>e-mail : dstex@hanmail.net</li>
+            </ul>
+            <address>© 동산텍스 All Rights Reserved.</address>
+        </footer>
+    </div>
+
 
     <button type="button" id="top_btn">
     	<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
@@ -37,6 +49,8 @@ if ($config['cf_analytics']) {
 }
 ?>
 
+<script src="<?php echo G5_THEME_URL ?>/js/slick.min.js"></script>
+<script src="<?php echo G5_THEME_URL ?>/js/main.js"></script>
 <!-- } 하단 끝 -->
 
 <script>
