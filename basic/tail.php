@@ -11,7 +11,11 @@ if(G5_COMMUNITY_USE === false) {
     return;
 }
 ?>
-
+<?php 
+if(!defined('_INDEX_')) {
+    include_once(G5_THEME_PATH.'/tail-d.php');
+}
+?>
 <footer class="footer">
             <ul>
                 <li>대표 : 이두열</li>
