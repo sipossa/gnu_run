@@ -23,6 +23,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 <?php
 if(defined('_INDEX_')) { // index에서만 실행
     include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
+    $num = 100;
 }
 ?>
 
@@ -45,13 +46,7 @@ if(defined('_INDEX_')) { // index에서만 실행
                         </a>
                     </h1>
                     <nav class="gnb">
-                        <ul>
-                            <li><a href="#">에어 샌드위치메쉬</a></li>
-                            <li><a href="#">면직물(CANVAS)</a></li>
-                            <li><a href="#">회사소개</a></li>
-                            <li><a href="#">보유장비</a></li>
-                            <li><a href="/bbs/board.php?bo_table=qa">고객문의</a></li>
-                        </ul>
+                        <?php include(G5_THEME_PATH.'/doc/aside.php')?>
                     </nav>
                 </div>
             </div>
